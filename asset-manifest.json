@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.1bd3d4a9.css",
-    "main.js": "/static/js/main.8a998e5d.js",
-    "static/js/453.430cf63b.chunk.js": "/static/js/453.430cf63b.chunk.js",
-    "static/media/remixicon.svg?t=1734404658139": "/static/media/remixicon.df9902a6df13645438e1.svg",
-    "static/media/remixicon.eot?t=1734404658139": "/static/media/remixicon.29066d810a74e994be27.eot",
-    "static/media/remixicon.ttf?t=1734404658139": "/static/media/remixicon.868d1a768f4762dbcc3e.ttf",
-    "static/media/remixicon.woff?t=1734404658139": "/static/media/remixicon.ce82bb240fef24f93f95.woff",
-    "static/media/remixicon.woff2?t=1734404658139": "/static/media/remixicon.bb211d855a1864aa5b67.woff2",
-    "static/media/photo3.jpg": "/static/media/photo3.c29fb94e9e02a4256796.jpg",
-    "static/media/photo1.jpg": "/static/media/photo1.aa4c7ab1cdd76e71b19e.jpg",
-    "static/media/Hero1.jpg": "/static/media/Hero1.04d3024cb8a7edf15df6.jpg",
-    "index.html": "/index.html",
-    "main.1bd3d4a9.css.map": "/static/css/main.1bd3d4a9.css.map",
-    "main.8a998e5d.js.map": "/static/js/main.8a998e5d.js.map",
-    "453.430cf63b.chunk.js.map": "/static/js/453.430cf63b.chunk.js.map"
+    "main.css": "/techprintethiopia/static/css/main.bb4fd9e5.css",
+    "main.js": "/techprintethiopia/static/js/main.a7638467.js",
+    "static/js/453.430cf63b.chunk.js": "/techprintethiopia/static/js/453.430cf63b.chunk.js",
+    "static/media/remixicon.svg?t=1734404658139": "/techprintethiopia/static/media/remixicon.df9902a6df13645438e1.svg",
+    "static/media/remixicon.eot?t=1734404658139": "/techprintethiopia/static/media/remixicon.29066d810a74e994be27.eot",
+    "static/media/remixicon.ttf?t=1734404658139": "/techprintethiopia/static/media/remixicon.868d1a768f4762dbcc3e.ttf",
+    "static/media/remixicon.woff?t=1734404658139": "/techprintethiopia/static/media/remixicon.ce82bb240fef24f93f95.woff",
+    "static/media/remixicon.woff2?t=1734404658139": "/techprintethiopia/static/media/remixicon.bb211d855a1864aa5b67.woff2",
+    "static/media/photo3.jpg": "/techprintethiopia/static/media/photo3.c29fb94e9e02a4256796.jpg",
+    "static/media/photo1.jpg": "/techprintethiopia/static/media/photo1.aa4c7ab1cdd76e71b19e.jpg",
+    "static/media/Hero1.jpg": "/techprintethiopia/static/media/Hero1.04d3024cb8a7edf15df6.jpg",
+    "index.html": "/techprintethiopia/index.html",
+    "main.bb4fd9e5.css.map": "/techprintethiopia/static/css/main.bb4fd9e5.css.map",
+    "main.a7638467.js.map": "/techprintethiopia/static/js/main.a7638467.js.map",
+    "453.430cf63b.chunk.js.map": "/techprintethiopia/static/js/453.430cf63b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bd3d4a9.css",
-    "static/js/main.8a998e5d.js"
+    "static/css/main.bb4fd9e5.css",
+    "static/js/main.a7638467.js"
   ]
 }
