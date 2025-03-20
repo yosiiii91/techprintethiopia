@@ -1,0 +1,77 @@
+/* Hero Section */
+.hero { 
+  margin-top: 2px;
+  flex-grow: 1;
+  min-height: 50vh; /* Prevents it from shrinking too much */
+  background: url('../images/Hero1.jpg') no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.cta-btn {
+  margin-top: 1rem;
+  background-color: #7e7e7a;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Overview Section */
+.overview {
+  color: black;
+  padding: 2rem;
+  text-align: center;
+  max-height: 0; /* Collapsed by default */
+  overflow: hidden; /* Hides content when collapsed */
+  transition: max-height 0.8s ease-out, opacity 0.8s ease-out; /* Smooth transition */
+}
+
+.overview.visible {
+  max-height: 1000px; /* Large enough to fit content; adjust if needed */
+}
+
+.overview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.overview-item {
+  background-color: #efecec;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow:5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.overview-item h3 {
+  color: #008000;
+  margin-bottom: 0.5rem;
+}

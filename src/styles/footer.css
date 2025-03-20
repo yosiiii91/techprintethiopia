@@ -1,0 +1,19 @@
+/* Footer */
+.footer {
+  border-top: 8px;
+  background-color: #55636f;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2px;
+}
+
+.footer a {
+  color: inherit; /* Inherits the white color from the footer */
+  text-decoration: none; /* Removes the default underline */
+  cursor: pointer; /* Shows a hand cursor to indicate clickability */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Adds an underline on hover for feedback */
+}

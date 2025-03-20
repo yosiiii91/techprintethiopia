@@ -1,0 +1,141 @@
+.about-page {
+  padding: 2rem;
+  background: #f5f5f5;
+  z-index: -1000;
+}
+
+.about-hero {
+  position: relative;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  color: rgb(253, 252, 252);
+}
+
+h2 {
+  margin-bottom: 20px; /* Adjust the value to control the gap */
+}
+
+p {
+  margin-bottom: 20px; /* Adjust the value to control the gap */
+}
+
+.hero-content {
+
+  z-index: 1;
+}
+
+.gradient-text {
+
+  font-size: 3rem;
+  background: linear-gradient(90deg, #15e715, #030303);
+  -webkit-background-clip: text;
+  background-clip: text; /* Standard property for modern browsers */
+  color: transparent;
+}
+
+.hero-subtext {
+  font-size: 1.4rem;
+}
+
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../images/photo3.jpg') no-repeat center/cover;
+  opacity: 1;
+}
+
+.stats-bar {
+  color: #030303;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 3;
+}
+
+.content-section {
+  color: #030303;
+  padding: 2rem;
+  background: #fff;
+  margin: 2rem 0;
+  border-radius: 10px;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline-milestone {
+  margin-bottom: 1.5rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #008000;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+}
+
+.values-grid {
+  color: #030303;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.value-card {
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.value-icon {
+  font-size: 2rem;
+  color: #008000;
+  margin-bottom: 1rem;
+}
+
+.team-section {
+  color: #030303;
+  padding: 2rem;
+  text-align: center;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.team-card img {
+  background: url('../images/photo1.jpg') no-repeat center/cover;
+  
+  border-radius: 50%;
+}
+
+.philosophy-panel {
+  padding: 2rem;
+  background: #008000;
+  color: white;
+  text-align: center;
+  margin: 2rem 0;
+  border-radius: 10px;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.2rem;
+}

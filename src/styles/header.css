@@ -1,0 +1,113 @@
+/* Base styles */
+.header {
+  background-color: #55636f; /* Green from Ethiopian flag */
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.hamburger {
+  display: none; /* Hidden by default on larger screens */
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.hamburger .line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+  display: block;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Transform hamburger into 'X' when menu is open */
+.hamburger.open .line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.open .line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open .line:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+}
+
+.nav-links li a.active,
+.nav-links li a:hover {
+  background-color: #55636f; /* Consider #FFD700 for better contrast */
+  color: #dad2d2;
+  border-radius: 5px;
+}
+
+.contact-btn {
+  background-color: #55636f; /* Consider #FF0000 for red */
+  color: #fff;
+}
+
+.contact-btn:hover {
+  background-color: #008000;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block; /* Show hamburger on small screens */
+  }
+
+  .nav-links {
+    display: none; /* Hide nav links by default on small screens */
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links.open {
+    display: flex; /* Show nav links when open */
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links li a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 769px) {
+  .nav-links {
+    display: flex;
+    flex-direction: row; /* Horizontal on large screens */
+  }
+
+  .hamburger {
+    display: none; /* Hide hamburger on large screens */
+  }
+}
