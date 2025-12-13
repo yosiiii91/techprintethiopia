@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/techprintethiopia/static/css/main.bb4fd9e5.css",
-    "main.js": "/techprintethiopia/static/js/main.ed691812.js",
+    "main.js": "/techprintethiopia/static/js/main.a7638467.js",
     "static/js/453.430cf63b.chunk.js": "/techprintethiopia/static/js/453.430cf63b.chunk.js",
     "static/media/remixicon.svg?t=1734404658139": "/techprintethiopia/static/media/remixicon.df9902a6df13645438e1.svg",
     "static/media/remixicon.eot?t=1734404658139": "/techprintethiopia/static/media/remixicon.29066d810a74e994be27.eot",
@@ -13,11 +13,11 @@
     "static/media/Hero1.jpg": "/techprintethiopia/static/media/Hero1.04d3024cb8a7edf15df6.jpg",
     "index.html": "/techprintethiopia/index.html",
     "main.bb4fd9e5.css.map": "/techprintethiopia/static/css/main.bb4fd9e5.css.map",
-    "main.ed691812.js.map": "/techprintethiopia/static/js/main.ed691812.js.map",
+    "main.a7638467.js.map": "/techprintethiopia/static/js/main.a7638467.js.map",
     "453.430cf63b.chunk.js.map": "/techprintethiopia/static/js/453.430cf63b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb4fd9e5.css",
-    "static/js/main.ed691812.js"
+    "static/js/main.a7638467.js"
   ]
 }
